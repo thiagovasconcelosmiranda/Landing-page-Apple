@@ -1,0 +1,171 @@
+header {
+    width: 70%;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 70%;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+
+header .group-x {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.group-x img {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.title-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.group-x h3 {
+    color: $gray-dark;
+    font-size: 30px;
+}
+
+.group-x h1 {
+    font-size: 40px;
+    color: $white;
+}
+
+.row-group {
+    display: flex;
+    justify-content: center;
+}
+
+.col-i-product {
+    width: 100%;
+    max-width: 600px;
+    flex: 1;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: $white;
+    margin: 10px;
+}
+
+.product-title {
+    width: 100%;
+    padding: 20px 0;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.line-border {
+    border-top: 1px solid $gray;
+    border-bottom: 1px solid $gray;
+}
+
+.product-title h5 {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.product-title p {
+    text-align: center;
+    color: $gray-dark;
+    padding: 10px 10px;
+}
+
+.top {
+    margin-top: -70px;
+}
+
+.flex {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.flex img {
+    width: 50%;
+
+}
+
+.flex .role-inverter-lest {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.announcement-group {
+    width: 70%;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+
+    h3 {
+        color: $gray-dark;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        width: 100%;
+        color: $white;
+        font-size: 35px;
+    }
+
+
+    p {
+        width: 80%;
+        color: $gray-dark;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h2 {
+        width: 75%;
+        margin-top: 20px;
+        color: $white;
+        margin-bottom: 50px;
+    }
+}
+
+.top-15 {
+    margin-top: -15px;
+}
+
+.top-80 {
+    margin-top: -80px;
+}
+
+@media (max-width: 700px) {
+    .row-group {
+        flex-direction: column;
+    }
+
+    .flex {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
