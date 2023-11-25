@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;1,100&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial;
+  font-family: "Noto Sans", sans-serif;
 }
 
 body {
@@ -59,7 +60,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-left: 20px;
-  border-bottom: 1px solid #5e5c5c;
+  border-bottom: 1px solid #807c7c;
 }
 .nav-secondary i {
   color: #FFFFFF;
@@ -80,7 +81,7 @@ nav {
   color: rgb(209, 205, 205);
 }
 .nav-secondary ul li button {
-  background-color: rgb(59, 127, 182);
+  background-color: #0071e3;
   padding: 5px 10px;
   cursor: pointer;
   border-radius: 15px;
@@ -172,7 +173,7 @@ header .group-x {
 }
 
 .group-x h3 {
-  color: #5e5c5c;
+  color: #807c7c;
   font-size: 30px;
 }
 
@@ -201,12 +202,13 @@ header .group-x {
 
 .product-title {
   width: 100%;
-  padding: 20px 0;
+  padding: 50px 0;
   display: inline-block;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+  margin-top: 30px;
 }
 
 .line-border {
@@ -223,7 +225,7 @@ header .group-x {
 
 .product-title p {
   text-align: center;
-  color: #5e5c5c;
+  color: #807c7c;
   padding: 10px 10px;
 }
 
@@ -252,7 +254,7 @@ header .group-x {
   padding: 10px;
 }
 .announcement-group h3 {
-  color: #5e5c5c;
+  color: #807c7c;
   margin-bottom: 20px;
 }
 .announcement-group h1 {
@@ -262,7 +264,7 @@ header .group-x {
 }
 .announcement-group p {
   width: 80%;
-  color: #5e5c5c;
+  color: #807c7c;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -311,22 +313,24 @@ header .group-x {
   margin-top: 30px;
 }
 .row-product .product-descrition i {
-  font-size: 30px;
+  font-size: 25px;
   padding: 20px 0;
   color: #FFFFFF;
 }
 .row-product .product-descrition p {
-  width: 70%;
-  font-size: 30px;
+  width: 100%;
+  font-size: 20px;
   color: #FFFFFF;
-  font-weight: 400;
-  font-family: sans-serif;
 }
 .row-product .font-25 {
   font-size: 25px;
 }
 .row-product .announcement-group img {
   width: 100%;
+}
+
+.top-60 {
+  margin-top: -60px;
 }
 
 @media (max-width: 700px) {
@@ -360,7 +364,7 @@ footer .footer-row {
   color: #FFFFFF;
   padding: 30px;
   gap: 30px;
-  border-bottom: 1px solid #5e5c5c;
+  border-bottom: 1px solid #807c7c;
   background-color: #3b3b3b;
 }
 .footer-row .logo-i p {
@@ -422,7 +426,7 @@ footer .footer-row {
 }
 .footer-row-select .footer-links p {
   padding: 5px;
-  color: #5e5c5c;
+  color: #807c7c;
 }
 
 @media (max-width: 700px) {

@@ -1,9 +1,9 @@
 @import 'partials/color';
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;1,100&display=swap');
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial;
+    font-family: 'Noto Sans', sans-serif;
 
 }
 
@@ -92,7 +92,7 @@ nav {
             }
 
             button {
-                background-color: rgb(59, 127, 182);
+                background-color: #0071e3;
                 padding: 5px 10px;
                 cursor: pointer;
                 border-radius: 15px;
